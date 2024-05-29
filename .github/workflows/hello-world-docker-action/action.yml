@@ -1,0 +1,10 @@
+name: primerworkflow
+on:
+schedule:
+       -cron: '35290503'
+       jobs:
+       Built
+       runs-on: ms
+       steps:
+          cmd dir
+          
